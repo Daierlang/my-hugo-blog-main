@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Daierlang</title>
+        <link>https://Daierlang.github.io/hugo-quickstart/post/</link>
+        <description>Recent content in Posts on Daierlang</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>Daierlang</copyright>
+        <lastBuildDate>Thu, 14 Aug 2025 15:59:13 +0800</lastBuildDate><atom:link href="https://Daierlang.github.io/hugo-quickstart/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>你好web</title>
+        <link>https://Daierlang.github.io/hugo-quickstart/p/%E4%BD%A0%E5%A5%BDweb/</link>
+        <pubDate>Thu, 14 Aug 2025 15:59:13 +0800</pubDate>
+        
+        <guid>https://Daierlang.github.io/hugo-quickstart/p/%E4%BD%A0%E5%A5%BDweb/</guid>
+        <description>&lt;p&gt;目前先学会正常的更新文章，个性化，基本管理和日日常更新，打算买一台zbook15g2玩，后面再自己做页面，买域名租服务器和存储，学爬虫，逛互联网历史博物馆，建立个人的本地存储库（大概就是多弄几块硬盘罢了），我这个人做事全凭兴趣，就这个九分钟搭建网站的视频我都看了三天才弄完可想而知，不过我说，现在不做以后不会做，所有只要开始就好，你不开始那就怎么搞也没办法啊，我倒不是多勤奋，但是也是做了一会儿了，拖延加惰性以及内耗还是 该一巴掌醒一醒，加油！键盘该换了，不过可以先看看是不是轴接触不良。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>My First Post</title>
+        <link>https://Daierlang.github.io/hugo-quickstart/p/my-first-post/</link>
+        <pubDate>Tue, 12 Aug 2025 23:41:13 +0800</pubDate>
+        
+        <guid>https://Daierlang.github.io/hugo-quickstart/p/my-first-post/</guid>
+        <description>&lt;p&gt;第二次测试&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
