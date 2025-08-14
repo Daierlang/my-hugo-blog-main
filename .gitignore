@@ -6,3 +6,5 @@ resources/
 
 # 忽略本地编辑器缓存（如 VS Code 的 .vscode 目录，可选）
 .vscode/
+
+.hugo_build.lock
