@@ -1,0 +1,8 @@
+# 忽略 Hugo 生成的静态文件目录（会由 Actions 自动生成）
+public/
+
+# 忽略 Hugo 缓存目录
+resources/
+
+# 忽略本地编辑器缓存（如 VS Code 的 .vscode 目录，可选）
+.vscode/
