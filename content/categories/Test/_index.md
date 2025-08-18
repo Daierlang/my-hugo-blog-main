@@ -1,6 +1,6 @@
 ---
-title: "Test"
-description: "This is an example category"
+title: "test"
+description: "记录更新和变化"
 slug: "test"
 image: "hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg"
 style:

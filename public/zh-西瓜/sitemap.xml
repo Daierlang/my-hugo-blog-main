@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Daierlang.github.io/hugo-quickstart/zh-%E8%A5%BF%E7%93%9C/categories/</loc>
+    <loc>https://Daierlang.github.io/Daierlang-gzj.github.io/zh-%E8%A5%BF%E7%93%9C/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://Daierlang.github.io/hugo-quickstart/categories/"
+                href="https://Daierlang.github.io/Daierlang-gzj.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-西瓜"
-                href="https://Daierlang.github.io/hugo-quickstart/zh-%E8%A5%BF%E7%93%9C/categories/"
+                href="https://Daierlang.github.io/Daierlang-gzj.github.io/zh-%E8%A5%BF%E7%93%9C/categories/"
                 />
   </url><url>
-    <loc>https://Daierlang.github.io/hugo-quickstart/zh-%E8%A5%BF%E7%93%9C/tags/</loc>
+    <loc>https://Daierlang.github.io/Daierlang-gzj.github.io/zh-%E8%A5%BF%E7%93%9C/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://Daierlang.github.io/hugo-quickstart/tags/"
+                href="https://Daierlang.github.io/Daierlang-gzj.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-西瓜"
-                href="https://Daierlang.github.io/hugo-quickstart/zh-%E8%A5%BF%E7%93%9C/tags/"
+                href="https://Daierlang.github.io/Daierlang-gzj.github.io/zh-%E8%A5%BF%E7%93%9C/tags/"
                 />
   </url><url>
-    <loc>https://Daierlang.github.io/hugo-quickstart/zh-%E8%A5%BF%E7%93%9C/</loc>
+    <loc>https://Daierlang.github.io/Daierlang-gzj.github.io/zh-%E8%A5%BF%E7%93%9C/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://Daierlang.github.io/hugo-quickstart/"
+                href="https://Daierlang.github.io/Daierlang-gzj.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-西瓜"
-                href="https://Daierlang.github.io/hugo-quickstart/zh-%E8%A5%BF%E7%93%9C/"
+                href="https://Daierlang.github.io/Daierlang-gzj.github.io/zh-%E8%A5%BF%E7%93%9C/"
                 />
   </url>
 </urlset>

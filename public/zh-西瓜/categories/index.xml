@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on 西瓜瓜</title>
-        <link>https://Daierlang.github.io/hugo-quickstart/zh-%E8%A5%BF%E7%93%9C/categories/</link>
+        <link>https://Daierlang.github.io/Daierlang-gzj.github.io/zh-%E8%A5%BF%E7%93%9C/categories/</link>
         <description>Recent content in Categories on 西瓜瓜</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-西瓜</language>
-        <copyright>Daierlang</copyright><atom:link href="https://Daierlang.github.io/hugo-quickstart/zh-%E8%A5%BF%E7%93%9C/categories/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>Daierlang</copyright><atom:link href="https://Daierlang.github.io/Daierlang-gzj.github.io/zh-%E8%A5%BF%E7%93%9C/categories/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

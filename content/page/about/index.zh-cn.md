@@ -7,4 +7,6 @@ menu:
             icon: user
 ---
 
-This is a test page for i18n support.
+
+
+只是一个喜欢古早和复古的人 。

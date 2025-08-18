@@ -2,26 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Daierlang</title>
-        <link>https://Daierlang.github.io/hugo-quickstart/post/</link>
+        <link>https://Daierlang.github.io/Daierlang-gzj.github.io/post/</link>
         <description>Recent content in Posts on Daierlang</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Daierlang</copyright>
-        <lastBuildDate>Thu, 14 Aug 2025 15:59:13 +0800</lastBuildDate><atom:link href="https://Daierlang.github.io/hugo-quickstart/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 18 Aug 2025 15:28:41 +0800</lastBuildDate><atom:link href="https://Daierlang.github.io/Daierlang-gzj.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>成功部署</title>
+        <link>https://Daierlang.github.io/Daierlang-gzj.github.io/p/%E6%88%90%E5%8A%9F%E9%83%A8%E7%BD%B2/</link>
+        <pubDate>Mon, 18 Aug 2025 15:28:41 +0800</pubDate>
+        
+        <guid>https://Daierlang.github.io/Daierlang-gzj.github.io/p/%E6%88%90%E5%8A%9F%E9%83%A8%E7%BD%B2/</guid>
+        <description>&lt;p&gt;+++&lt;/p&gt;
+&lt;p&gt;折腾了好些天，博客总算成功部署了。值得一提的是，手机端适配有了惊喜 ——Stark 主题似乎做了不少优化，浏览体验顺畅了很多。不过后续还有一堆待办事项要慢慢理顺：&lt;/p&gt;
+&lt;p&gt;首先得系统学习下 Markdown 语法，毕竟写文章离不开它；其次，目前用的编辑器试用期快到了，得赶紧找个合适的替代工具；再者，自动部署的流程还没打通，这一步必须搞定才能提高效率。&lt;/p&gt;
+&lt;p&gt;另外，关于 GitHub 的文件更新上传和 Hugo 的基础操作，也得再巩固一下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;生成 public 文件：&lt;code&gt;hugo -D&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;本地预览效果：&lt;code&gt;hugo server -D&lt;/code&gt;（之前输错成 serrver 了，修正下）&lt;/li&gt;
+&lt;li&gt;创建新文章：&lt;code&gt;hugo new content 路径/文件名/index.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;上传到 GitHub 的步骤：&lt;code&gt;git init&lt;/code&gt;初始化仓库 → &lt;code&gt;git add .&lt;/code&gt;添加所有文件 → &lt;code&gt;git commit -m&amp;quot;本次更新说明&amp;quot;&lt;/code&gt;提交更改 → &lt;code&gt;git push -u origin main&lt;/code&gt;推送（如果推送失败，可尝试用&lt;code&gt;-f&lt;/code&gt;强制推送，但注意强制推送可能覆盖远程内容，谨慎使用）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;除了这些基础操作，还有几个美化和功能优化的方向：换一张更贴合博客风格的背景图；给文章添加合适的图片，让内容更生动；完善分类和归档功能，方便读者查找内容；最后，得把评论系统加上，增加和访客的互动性。&lt;/p&gt;
+&lt;p&gt;一步一步来，慢慢把博客打磨得更完善些～&lt;/p&gt;
+&lt;p&gt;下面是原内容，上面有由豆包ai优化生成&lt;/p&gt;
+&lt;p&gt;总之拖了这么多天是成功部署了，手机端好消息是也stark主题好像也做了优化，然后后面要学习markdown怎么写的，然后是这个编辑器试用要到期了，再然后是要弄好自动部署这个，然后弄明白giithub咋更新上传文件的，和hugo的基本操作吧，比如生成public文件(hugo -D),本地预览(hugo serrver -D),创建新的文章（hugo new content 位置/名字/文件格式，一般index.md）,上传GitHub（git init,git add .这个是上传全部，comment -m&amp;quot;本次上传的注释&amp;quot;，git push -u origin main，进行上传，不成功-u改为-f）&lt;/p&gt;
+&lt;p&gt;然后想换一下背景图片，给博客加上图片，给文章分档归类,然后要把评论给弄上。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>你好web</title>
-        <link>https://Daierlang.github.io/hugo-quickstart/p/%E4%BD%A0%E5%A5%BDweb/</link>
+        <link>https://Daierlang.github.io/Daierlang-gzj.github.io/p/%E4%BD%A0%E5%A5%BDweb/</link>
         <pubDate>Thu, 14 Aug 2025 15:59:13 +0800</pubDate>
         
-        <guid>https://Daierlang.github.io/hugo-quickstart/p/%E4%BD%A0%E5%A5%BDweb/</guid>
-        <description>&lt;p&gt;目前先学会正常的更新文章，个性化，基本管理和日日常更新，打算买一台zbook15g2玩，后面再自己做页面，买域名租服务器和存储，学爬虫，逛互联网历史博物馆，建立个人的本地存储库（大概就是多弄几块硬盘罢了），我这个人做事全凭兴趣，就这个九分钟搭建网站的视频我都看了三天才弄完可想而知，不过我说，现在不做以后不会做，所有只要开始就好，你不开始那就怎么搞也没办法啊，我倒不是多勤奋，但是也是做了一会儿了，拖延加惰性以及内耗还是 该一巴掌醒一醒，加油！键盘该换了，不过可以先看看是不是轴接触不良。&lt;/p&gt;
+        <guid>https://Daierlang.github.io/Daierlang-gzj.github.io/p/%E4%BD%A0%E5%A5%BDweb/</guid>
+        <description>&lt;p&gt;+++&lt;/p&gt;
+&lt;p&gt;目前的首要目标是把博客的基础操作理顺：熟练更新文章、做些个性化调整、掌握日常管理方法。&lt;/p&gt;
+&lt;p&gt;长远一点的计划也有不少：想入手一台 ZBook 15 G2 折腾折腾；之后要尝试自己写页面，买个专属域名，租服务器和存储；还想学学爬虫技术，逛逛互联网历史博物馆，再搭个个人本地存储库 —— 说白了就是多装几块硬盘存东西。&lt;/p&gt;
+&lt;p&gt;我这人做事全凭兴趣驱动，就像那个 &amp;ldquo;九分钟搭建网站&amp;rdquo; 的视频，我愣是看了三天才动手弄完，效率确实谈不上高。但总觉得，现在不做，以后可能更不会碰了。所以啊，只要开始了就好，连第一步都迈不出的话，啥也成不了。&lt;/p&gt;
+&lt;p&gt;说不上多勤奋，但至少已经上手做了一会儿。拖延、惰性加内耗这些毛病，确实该狠狠给自己一巴掌醒醒神。加油吧！&lt;/p&gt;
+&lt;p&gt;对了，键盘好像不太好使了，先看看是不是轴体接触不良，不行再考虑换一个。&lt;/p&gt;
+&lt;p&gt;下面是原内容，上面由豆包ai优化生成&lt;/p&gt;
+&lt;p&gt;目前先学会正常的更新文章，个性化，基本管理和日日常更新，打算买一台zbook15g2玩，后面再自己做页面，买域名租服务器和存储，学爬虫，逛互联网历史博物馆，建立个人的本地存储库（大概就是多弄几块硬盘罢了），我这个人做事全凭兴趣，就这个九分钟搭建网站的视频我都看了三天才弄完可想而知，不过我说，现在不做以后不会做，所有只要开始就好，你不开始那就怎么搞也没办法啊，我倒不是多勤奋，但是也是做了一会儿了，拖延加惰性以及内耗还是 该一巴掌醒一醒，加油！键盘该换了，不过可以先看看是不是轴接触不良。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>My First Post</title>
-        <link>https://Daierlang.github.io/hugo-quickstart/p/my-first-post/</link>
+        <link>https://Daierlang.github.io/Daierlang-gzj.github.io/p/my-first-post/</link>
         <pubDate>Tue, 12 Aug 2025 23:41:13 +0800</pubDate>
         
-        <guid>https://Daierlang.github.io/hugo-quickstart/p/my-first-post/</guid>
+        <guid>https://Daierlang.github.io/Daierlang-gzj.github.io/p/my-first-post/</guid>
         <description>&lt;p&gt;第二次测试&lt;/p&gt;
 </description>
         </item>
