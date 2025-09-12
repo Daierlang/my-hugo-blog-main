@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Daierlang</title>
-        <link>https://Daierlang.github.io/Daierlang-gzj.github.io/</link>
+        <link>http://localhost:1313/Daierlang-gzj.github.io/</link>
         <description>Recent content on Daierlang</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Daierlang</copyright>
-        <lastBuildDate>Mon, 18 Aug 2025 15:28:41 +0800</lastBuildDate><atom:link href="https://Daierlang.github.io/Daierlang-gzj.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 18 Aug 2025 15:28:41 +0800</lastBuildDate><atom:link href="http://localhost:1313/Daierlang-gzj.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>成功部署</title>
-        <link>https://Daierlang.github.io/Daierlang-gzj.github.io/p/%E6%88%90%E5%8A%9F%E9%83%A8%E7%BD%B2/</link>
+        <link>http://localhost:1313/Daierlang-gzj.github.io/p/%E6%88%90%E5%8A%9F%E9%83%A8%E7%BD%B2/</link>
         <pubDate>Mon, 18 Aug 2025 15:28:41 +0800</pubDate>
         
-        <guid>https://Daierlang.github.io/Daierlang-gzj.github.io/p/%E6%88%90%E5%8A%9F%E9%83%A8%E7%BD%B2/</guid>
+        <guid>http://localhost:1313/Daierlang-gzj.github.io/p/%E6%88%90%E5%8A%9F%E9%83%A8%E7%BD%B2/</guid>
         <description>&lt;p&gt;+++&lt;/p&gt;
 &lt;p&gt;折腾了好些天，博客总算成功部署了。值得一提的是，手机端适配有了惊喜 ——Stark 主题似乎做了不少优化，浏览体验顺畅了很多。不过后续还有一堆待办事项要慢慢理顺：&lt;/p&gt;
 &lt;p&gt;首先得系统学习下 Markdown 语法，毕竟写文章离不开它；其次，目前用的编辑器试用期快到了，得赶紧找个合适的替代工具；再者，自动部署的流程还没打通，这一步必须搞定才能提高效率。&lt;/p&gt;
@@ -21,7 +21,7 @@
 &lt;li&gt;生成 public 文件：&lt;code&gt;hugo -D&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;本地预览效果：&lt;code&gt;hugo server -D&lt;/code&gt;（之前输错成 serrver 了，修正下）&lt;/li&gt;
 &lt;li&gt;创建新文章：&lt;code&gt;hugo new content 路径/文件名/index.md&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;上传到 GitHub 的步骤：&lt;code&gt;git init&lt;/code&gt;初始化仓库 → &lt;code&gt;git add .&lt;/code&gt;添加所有文件 → &lt;code&gt;git commit -m&amp;quot;本次更新说明&amp;quot;&lt;/code&gt;提交更改 → &lt;code&gt;git push -u origin main&lt;/code&gt;推送（如果推送失败，可尝试用&lt;code&gt;-f&lt;/code&gt;强制推送，但注意强制推送可能覆盖远程内容，谨慎使用）&lt;/li&gt;
+&lt;li&gt;上传到 GitHub 的步骤：&lt;code&gt;git init&lt;/code&gt;初始化仓库 → &lt;code&gt;git add .&lt;/code&gt;添加所有文件 → &lt;code&gt;git commit -m&amp;quot;本次更新说明&amp;quot;&lt;/code&gt;提交更改 →git branch -M main  &amp;gt; &lt;code&gt;git push -u origin main&lt;/code&gt;推送（如果推送失败，可尝试用&lt;code&gt;-f&lt;/code&gt;强制推送，但注意强制推送可能覆盖远程内容，谨慎使用）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;除了这些基础操作，还有几个美化和功能优化的方向：换一张更贴合博客风格的背景图；给文章添加合适的图片，让内容更生动；完善分类和归档功能，方便读者查找内容；最后，得把评论系统加上，增加和访客的互动性。&lt;/p&gt;
 &lt;p&gt;一步一步来，慢慢把博客打磨得更完善些～&lt;/p&gt;
@@ -32,10 +32,10 @@
         </item>
         <item>
         <title>你好web</title>
-        <link>https://Daierlang.github.io/Daierlang-gzj.github.io/p/%E4%BD%A0%E5%A5%BDweb/</link>
+        <link>http://localhost:1313/Daierlang-gzj.github.io/p/%E4%BD%A0%E5%A5%BDweb/</link>
         <pubDate>Thu, 14 Aug 2025 15:59:13 +0800</pubDate>
         
-        <guid>https://Daierlang.github.io/Daierlang-gzj.github.io/p/%E4%BD%A0%E5%A5%BDweb/</guid>
+        <guid>http://localhost:1313/Daierlang-gzj.github.io/p/%E4%BD%A0%E5%A5%BDweb/</guid>
         <description>&lt;p&gt;+++&lt;/p&gt;
 &lt;p&gt;目前的首要目标是把博客的基础操作理顺：熟练更新文章、做些个性化调整、掌握日常管理方法。&lt;/p&gt;
 &lt;p&gt;长远一点的计划也有不少：想入手一台 ZBook 15 G2 折腾折腾；之后要尝试自己写页面，买个专属域名，租服务器和存储；还想学学爬虫技术，逛逛互联网历史博物馆，再搭个个人本地存储库 —— 说白了就是多装几块硬盘存东西。&lt;/p&gt;
@@ -48,44 +48,44 @@
         </item>
         <item>
         <title>My First Post</title>
-        <link>https://Daierlang.github.io/Daierlang-gzj.github.io/p/my-first-post/</link>
+        <link>http://localhost:1313/Daierlang-gzj.github.io/p/my-first-post/</link>
         <pubDate>Tue, 12 Aug 2025 23:41:13 +0800</pubDate>
         
-        <guid>https://Daierlang.github.io/Daierlang-gzj.github.io/p/my-first-post/</guid>
+        <guid>http://localhost:1313/Daierlang-gzj.github.io/p/my-first-post/</guid>
         <description>&lt;p&gt;第二次测试&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>归档</title>
-        <link>https://Daierlang.github.io/Daierlang-gzj.github.io/archives/</link>
+        <link>http://localhost:1313/Daierlang-gzj.github.io/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://Daierlang.github.io/Daierlang-gzj.github.io/archives/</guid>
+        <guid>http://localhost:1313/Daierlang-gzj.github.io/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>关于</title>
-        <link>https://Daierlang.github.io/Daierlang-gzj.github.io/%E5%85%B3%E4%BA%8E/</link>
+        <link>http://localhost:1313/Daierlang-gzj.github.io/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://Daierlang.github.io/Daierlang-gzj.github.io/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>http://localhost:1313/Daierlang-gzj.github.io/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;只是一个喜欢古早和复古的人 。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>搜索</title>
-        <link>https://Daierlang.github.io/Daierlang-gzj.github.io/search/</link>
+        <link>http://localhost:1313/Daierlang-gzj.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://Daierlang.github.io/Daierlang-gzj.github.io/search/</guid>
+        <guid>http://localhost:1313/Daierlang-gzj.github.io/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友情链接</title>
-        <link>https://Daierlang.github.io/Daierlang-gzj.github.io/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</link>
+        <link>http://localhost:1313/Daierlang-gzj.github.io/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://Daierlang.github.io/Daierlang-gzj.github.io/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</guid>
+        <guid>http://localhost:1313/Daierlang-gzj.github.io/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</guid>
         <description></description>
         </item>
         

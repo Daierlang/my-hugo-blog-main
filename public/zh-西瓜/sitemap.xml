@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Daierlang.github.io/Daierlang-gzj.github.io/zh-%E8%A5%BF%E7%93%9C/categories/</loc>
+    <loc>http://localhost:1313/Daierlang-gzj.github.io/zh-%E8%A5%BF%E7%93%9C/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://Daierlang.github.io/Daierlang-gzj.github.io/categories/"
+                href="http://localhost:1313/Daierlang-gzj.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-西瓜"
-                href="https://Daierlang.github.io/Daierlang-gzj.github.io/zh-%E8%A5%BF%E7%93%9C/categories/"
+                href="http://localhost:1313/Daierlang-gzj.github.io/zh-%E8%A5%BF%E7%93%9C/categories/"
                 />
   </url><url>
-    <loc>https://Daierlang.github.io/Daierlang-gzj.github.io/zh-%E8%A5%BF%E7%93%9C/tags/</loc>
+    <loc>http://localhost:1313/Daierlang-gzj.github.io/zh-%E8%A5%BF%E7%93%9C/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://Daierlang.github.io/Daierlang-gzj.github.io/tags/"
+                href="http://localhost:1313/Daierlang-gzj.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-西瓜"
-                href="https://Daierlang.github.io/Daierlang-gzj.github.io/zh-%E8%A5%BF%E7%93%9C/tags/"
+                href="http://localhost:1313/Daierlang-gzj.github.io/zh-%E8%A5%BF%E7%93%9C/tags/"
                 />
   </url><url>
-    <loc>https://Daierlang.github.io/Daierlang-gzj.github.io/zh-%E8%A5%BF%E7%93%9C/</loc>
+    <loc>http://localhost:1313/Daierlang-gzj.github.io/zh-%E8%A5%BF%E7%93%9C/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="https://Daierlang.github.io/Daierlang-gzj.github.io/"
+                href="http://localhost:1313/Daierlang-gzj.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-西瓜"
-                href="https://Daierlang.github.io/Daierlang-gzj.github.io/zh-%E8%A5%BF%E7%93%9C/"
+                href="http://localhost:1313/Daierlang-gzj.github.io/zh-%E8%A5%BF%E7%93%9C/"
                 />
   </url>
 </urlset>
