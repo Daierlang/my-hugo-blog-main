@@ -1,2 +1,1 @@
-"# hugoweb" 
-"# hugo-main" 
+这是我的个人博客项目，使用hugo搭建
