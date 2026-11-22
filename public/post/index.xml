@@ -2,17 +2,392 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Daierlang</title>
-        <link>http://localhost:1313/Daierlang-gzj.github.io/post/</link>
+        <link>http://localhost:1316/post/</link>
         <description>Recent content in Posts on Daierlang</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Daierlang</copyright>
-        <lastBuildDate>Mon, 18 Aug 2025 15:28:41 +0800</lastBuildDate><atom:link href="http://localhost:1313/Daierlang-gzj.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 09 Nov 2025 22:11:00 +0800</lastBuildDate><atom:link href="http://localhost:1316/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Markdown语法的使用</title>
+        <link>http://localhost:1316/p/markdown%E8%AF%AD%E6%B3%95%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+        <pubDate>Sun, 09 Nov 2025 22:11:00 +0800</pubDate>
+        
+        <guid>http://localhost:1316/p/markdown%E8%AF%AD%E6%B3%95%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+        <description>&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Markdown语法是用来排版的，它是的文件.md后缀的&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;前言你为什么会学习它&#34;&gt;前言你为什么会学习它
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;所以你想要在电脑上记录笔记就从这里开始把&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;通过Markdown语法和它的文本编辑器，我们可以体验到完全区别与手写记录笔记的便捷和快速，相信在足够的掌握后你不仅能在纸张上畅游，在这里也能畅快的记录和表达。
+[&lt;a class=&#34;link&#34; href=&#34;https://publish.obsidian.md/help-zh/%E7%94%B1%E6%AD%A4%E5%BC%80%E5%A7%8B&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;由此开始 - Obsidian 中文帮助 - Obsidian Publish&lt;/a&gt;]()
+我们在日常使用的时候多借助ai和官方的入门指南，不过主要还是说后面你忘记了可以在这几处查询到然后利用上，然后还有一些用法和插件这些基础之外的，你要通过官方的指南来查阅。&lt;/p&gt;
+&lt;h2 id=&#34;首先是markdown语法编辑器的选择&#34;&gt;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;首先是markdown语法编辑器的选择
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;typora,这个是相当主流的，但是需要付费（86元，只能激活三台机子），试用期只有15天(一台机子锁死15天)。&lt;a class=&#34;link&#34; href=&#34;https://www.typora.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Typora 官网&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;obsidian，这个是我正在使用的应该是免费的，它对博客管理可能 比较好类似windows
+文件管理器一样。&lt;a class=&#34;link&#34; href=&#34;https://obsidian.md/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Obsidian 官网&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Joplin，暂时没看应该也免费。&lt;a class=&#34;link&#34; href=&#34;https://joplinapp.org/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Joplin 官网&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;其他还有Mark Text&lt;a class=&#34;link&#34; href=&#34;https://www.marktext.cc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mark Text 官网&lt;/a&gt;VS Code + 插件&lt;a class=&#34;link&#34; href=&#34;https://code.visualstudio.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;VS Code 官网&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;当然学习完基础的markdown语法，我们实际在任意的文本编辑器都可以进行写作的（obsidian我确定是有移动端的不过还没有上手试）。&lt;/p&gt;
+&lt;h2 id=&#34;正文markdow语法&#34;&gt;&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;正文markdow语法
+&lt;/h2&gt;&lt;h4 id=&#34;标题部分&#34;&gt;标题部分
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# 一级标题     （这样表示一级标题，后面以此类推，最高能到六级标题）
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;## 二级标题
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;### 三级标题
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;...........
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;直接这样打出来回车就是，#和空格便被归入源码隐藏，我们想要看到被隐藏这部分可以在设置里打开源码模式，就能看到markdown语法的部分。（obsidia在右上角三个点）
+普通文本编辑器中直接这样表示就行。
+通过大纲我们可以浏览标题，和文章的整体结构。（obsidia点击右上角展开选项）&lt;/p&gt;
+&lt;h4 id=&#34;字体部分&#34;&gt;字体部分
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;**hello** 表示粗体 或用ctrl+i
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;*hello*   表示斜体 或用ctrl+b
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;***hello***   表示斜体加粗体
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;~~hello   给文字加删除线
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;引用&#34;&gt;引用
+&lt;/h4&gt;&lt;h6 id=&#34;文本引用&#34;&gt;文本引用
+&lt;/h6&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;gt; 引用的内容
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h6 id=&#34;图片引用&#34;&gt;图片引用
+&lt;/h6&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![图片名称](图片路径本地或者网络图片)      注意用英文符号
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;关于网络图片，在浏览器右键图片点击审查元素，复制地址就行，带jpg的（好像填了路径也有不显示，不过这里可以直接复制图片再粘贴也许行，然后是茜,图片好像不能正常显示，不过本地是可以的）&lt;img src=&#34;http://localhost:1316/static%5cfavicon.ico&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;xi&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h6 id=&#34;超链接&#34;&gt;超链接
+&lt;/h6&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[标题](地址)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h6 id=&#34;快捷复制内容&#34;&gt;快捷复制内容
+&lt;/h6&gt;&lt;pre&gt;&lt;code&gt;直接用tab再输入内容就行，它会把文字放进一个小灰框，右上角提供一个复制按钮，
+就像这样。好像这里并没有显示复制，不过本地是有的。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;分割线&#34;&gt;分割线
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---     有这两种写法
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;***
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;列表&#34;&gt;列表
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;有序列表      如删除内容2，内容3会自动修改序号为2.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;1 内容
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2 内容
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;3 内容
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;无序列表
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;- 内容        用一个点放内容前面
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;表格&#34;&gt;表格
+&lt;/h4&gt;&lt;p&gt;一般是直接用编辑器插入就行简单，源码如下&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;|a|b|c|      注意中间不要空行，通过打开源码模式可以看看中间有没有行
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;|--|--|--|
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;|A|B|C|
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id=&#34;代码&#34;&gt;代码
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&amp;#39;&amp;#39;&amp;#39;代码类型       **注意注意**这里是tab键上面的波浪线的点，我这里只是为了演示输入不了
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;关于obsidian的使用&#34;&gt;&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;关于obsidian的使用
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;当我们初次完成安装时，首先需要创建一个仓库存放我的内容&lt;/li&gt;
+&lt;li&gt;当光标停留在选项上时它会显示选项名称。&lt;/li&gt;
+&lt;li&gt;文件列表-&amp;gt;新建笔记，就能开始写作了。
+或直接快捷键，ctrl+n，就能开始写作了。&lt;/li&gt;
+&lt;li&gt;左键长按框选后右键或直接右键，可以看到对应前面markdown语法操作。&lt;/li&gt;
+&lt;li&gt;当你不需要左边这一块时，直接点击最左上角收起，右边同理也可以展开或收起。&lt;/li&gt;
+&lt;li&gt;我们在编写完成后点击右上角，从书图标切换到笔图标，即从编写切换到预览，哦们可以确认效果排版对不对。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;odbsidian特别点，最左，往下第第二，关系图谱，便于你像存储文件一样管理和查阅，不过这得你记的多才能看到效果。&lt;/p&gt;
+&lt;h2 id=&#34;结语markdown语法的作用&#34;&gt;结语markdown语法的作用
+&lt;/h2&gt;&lt;p&gt;借此我们可以方便记录笔记，可以方便的查阅，并上传为我们自己的博客。如果你想激励自己不断学习记录笔记我觉得有一个自己的博客正好，&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;去写博客吧！请期待我后面关于个人博客网站搭建的教程，感谢阅读！&lt;/p&gt;
+&lt;p&gt;以及当我们真正迈向工作之后并没有那么多时间来写博客的，而现在写下来的博客也相当于是对我们技术的认可。
+虽然这里完全就是基础了，不过我后面慢慢学习会再补充的。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;来自搜索ai&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;学习自狂神说java教学，b站上&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;知乎有[[&lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/428519519?s_r=0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;(1 封私信) 想一小时上手obsidian？这一篇就够了。【玩转Obsidian的保姆级教程】 - 知乎&lt;/a&gt;]]&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;如果不急个人搭建，也可以在博客园，csdn，简书，知乎，语雀&amp;hellip;来尝试，[语雀](&lt;a class=&#34;link&#34; href=&#34;https://www.yuque.com/dashboard&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;工作台 · 语雀&lt;/a&gt;)&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
+        <title>创建一篇博客吧</title>
+        <link>http://localhost:1316/p/%E5%88%9B%E5%BB%BA%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E5%90%A7/</link>
+        <pubDate>Sat, 01 Nov 2025 02:24:00 +0800</pubDate>
+        
+        <guid>http://localhost:1316/p/%E5%88%9B%E5%BB%BA%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E5%90%A7/</guid>
+        <description>&lt;hr&gt;
+&lt;p&gt;要写新的 Hugo 博客，步骤如下：&lt;/p&gt;
+&lt;p&gt;步骤 1：进入 Hugo 项目根目录
+打开命令行终端（如 Windows 的 CMD、PowerShell，或 Git Bash），切换到你的 Hugo 项目根目录（比如你的项目在 E:\huge\quickstart，就执行 cd E:\huge\quickstart）。&lt;/p&gt;
+&lt;p&gt;步骤 2：创建新文章（自动生成模板）
+执行 Hugo 命令生成新文章草稿：&lt;/p&gt;
+&lt;p&gt;hugo new posts/我的新博客.md&lt;/p&gt;
+&lt;p&gt;这会在 content/posts/ 目录下，生成一个名为 我的新博客.md 的文件；
+文件里会自动包含Front Matter（文章头部的配置，比如标题、日期、是否为草稿等）。&lt;/p&gt;
+&lt;p&gt;也可以直接在 content 目录（或其子目录，比如 content/posts/）里手动创建文件夹和 .md 文件，但是需要手动配置一下front matter。&lt;/p&gt;
+&lt;p&gt;步骤 3：编写文章内容
+用任意文本编辑器（如记事本、VS Code、Typora这个付费）打开 content/posts/我的新博客.md，在 &amp;mdash; 分隔的 Front Matter 下方，编写文章内容（支持 Markdown 格式）。&lt;/p&gt;
+&lt;h2 id=&#34;md&#34;&gt;示例（Front Matter 不用动，下方加内容）：
+md
+&lt;/h2&gt;&lt;h2 id=&#34;draft-true---此时是草稿状态预览需加--d-参数&#34;&gt;title: &amp;ldquo;我的新博客&amp;rdquo;
+date: 2025-11-01T12:00:00+08:00
+draft: true  # 此时是“草稿”状态，预览需加 -D 参数
+&lt;/h2&gt;&lt;h1 id=&#34;这是我的新博客标题&#34;&gt;这是我的新博客标题
+&lt;/h1&gt;&lt;p&gt;这里写文章内容&amp;hellip;可以用 &lt;strong&gt;Markdown 格式&lt;/strong&gt; 排版。&lt;/p&gt;
+&lt;p&gt;关于时间格式，这个日期格式是ISO 8601 标准格式，拆开来理解很简单：
+2025-11-01：表示年 - 月 - 日（2025 年 11 月 1 日）；
+T：是 “时间（Time）” 的分隔符，用来区分日期和时间；
+10:00:00：表示时：分: 秒（上午 10 点 0 分 0 秒）；
++08:00：表示时区偏移（东八区，即北京时间，比 UTC 时间快 8 小时）。&lt;/p&gt;
+&lt;p&gt;步骤 4：本地预览文章
+启动 Hugo 本地服务器，预览文章（因为 draft: true，需加 -D 显示草稿）：
+bash
+hugo server -D
+然后打开浏览器，复制cmd里面的链接到浏览器（也可以按住ctrl然后左键直接访问），就能看到新文章出现在列表里～&lt;/p&gt;
+&lt;p&gt;步骤 5：发布文章
+如果文章写完，想 “正式发布”（不再是草稿），只需把文章里的 draft: true 改成 draft: false，再重启 Hugo 服务（或直接用 hugo server 不带 -D），文章就会永久显示啦～（这部分是针对有供外部访问的朋友的）&lt;/p&gt;
+&lt;p&gt;关于markdown语法这部分&lt;/p&gt;
+&lt;p&gt;Markdown 是一种&lt;strong&gt;非常简单的“文字排版语法”&lt;/strong&gt;，只需要在文字前后加一些符号，就能实现标题、加粗、列表、链接等排版效果。下面用最常用的格式举例子，你一看就懂：&lt;/p&gt;
+&lt;h3 id=&#34;1-标题&#34;&gt;1. 标题
+&lt;/h3&gt;&lt;p&gt;用 &lt;code&gt;#&lt;/code&gt; 号表示，&lt;code&gt;#&lt;/code&gt; 越多，标题级别越低：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 一级标题（最大）
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;## 二级标题
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;### 三级标题
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;#### 四级标题
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;``&lt;span class=&#34;sb&#34;&gt;`f
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;### 2. 加粗 &amp;amp; 斜体
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;- 加粗：文字前后加 `&lt;/span&gt;**&lt;span class=&#34;sb&#34;&gt;`
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;- 斜体：文字前后加 `&lt;/span&gt;*&lt;span class=&#34;sb&#34;&gt;`
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;- 加粗+斜体：文字前后加 `&lt;/span&gt;***&lt;span class=&#34;sb&#34;&gt;`
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;示例：
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;``markdown
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gs&#34;&gt;**这是加粗的文字**&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;ge&#34;&gt;*这是斜体的文字*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;ge&#34;&gt;**&lt;/span&gt;*这是又加粗又斜体的文字***
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;3-列表&#34;&gt;3. 列表
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;无序列表：用 &lt;code&gt;-&lt;/code&gt; 或 &lt;code&gt;*&lt;/code&gt; 开头&lt;/li&gt;
+&lt;li&gt;有序列表：用 &lt;code&gt;数字.&lt;/code&gt; 开头&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 无序列表项1
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 无序列表项2
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 子列表项
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;*&lt;/span&gt; 无序列表项3
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;1.&lt;/span&gt; 有序列表项1
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;2.&lt;/span&gt; 有序列表项2
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;k&#34;&gt;1.&lt;/span&gt; 子列表项
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;4-链接--图片&#34;&gt;4. 链接 &amp;amp; 图片
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;链接：&lt;code&gt;[显示的文字](网址)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;图片：&lt;code&gt;![图片描述](图片地址)&lt;/code&gt;（和链接类似，前面多一个&lt;code&gt;!&lt;/code&gt;）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[&lt;span class=&#34;nt&#34;&gt;点击跳转到百度&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;https://www.baidu.com&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![&lt;span class=&#34;nt&#34;&gt;一张风景图&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;https://example.com/风景.jpg&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;5-引用&#34;&gt;5. 引用
+&lt;/h3&gt;&lt;p&gt;用 &lt;code&gt;&amp;gt;&lt;/code&gt; 开头，适合引用别人的话或段落：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;&amp;gt; &lt;/span&gt;&lt;span class=&#34;ge&#34;&gt;这是一段引用内容，比如名人名言~
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;实战示例写一篇简单的博客&#34;&gt;实战示例（写一篇简单的博客）
+&lt;/h3&gt;&lt;p&gt;把这些格式组合起来，一篇博客就出来了：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: &amp;#34;我的第一篇Markdown博客&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;date: 2025-11-01T10:00:00+08:00
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;draft: false
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# 欢迎来到我的博客
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gs&#34;&gt;**今天我学会了Markdown格式！**&lt;/span&gt; 它真的很简单：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 用 &lt;span class=&#34;sb&#34;&gt;`#`&lt;/span&gt; 写标题
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 用 &lt;span class=&#34;sb&#34;&gt;`**`&lt;/span&gt; 加粗文字
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; 还能插入链接：[&lt;span class=&#34;nt&#34;&gt;点击去Hugo官网&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;https://gohugo.io&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;&amp;gt; &lt;/span&gt;&lt;span class=&#34;ge&#34;&gt;总结：Markdown让写博客变得超轻松~
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;只要记住这些基础符号，就能快速写出排版美观的博客啦！
+以上就是博客的主要内容了，感谢阅读！&lt;/p&gt;
+&lt;p&gt;待博客更完善后我会在后面补上合适的部署教程的，感谢支持！&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>成功部署</title>
-        <link>http://localhost:1313/Daierlang-gzj.github.io/p/%E6%88%90%E5%8A%9F%E9%83%A8%E7%BD%B2/</link>
+        <link>http://localhost:1316/p/%E6%88%90%E5%8A%9F%E9%83%A8%E7%BD%B2/</link>
         <pubDate>Mon, 18 Aug 2025 15:28:41 +0800</pubDate>
         
-        <guid>http://localhost:1313/Daierlang-gzj.github.io/p/%E6%88%90%E5%8A%9F%E9%83%A8%E7%BD%B2/</guid>
+        <guid>http://localhost:1316/p/%E6%88%90%E5%8A%9F%E9%83%A8%E7%BD%B2/</guid>
         <description>&lt;p&gt;+++&lt;/p&gt;
 &lt;p&gt;折腾了好些天，博客总算成功部署了。值得一提的是，手机端适配有了惊喜 ——Stark 主题似乎做了不少优化，浏览体验顺畅了很多。不过后续还有一堆待办事项要慢慢理顺：&lt;/p&gt;
 &lt;p&gt;首先得系统学习下 Markdown 语法，毕竟写文章离不开它；其次，目前用的编辑器试用期快到了，得赶紧找个合适的替代工具；再者，自动部署的流程还没打通，这一步必须搞定才能提高效率。&lt;/p&gt;
@@ -32,10 +407,10 @@
         </item>
         <item>
         <title>你好web</title>
-        <link>http://localhost:1313/Daierlang-gzj.github.io/p/%E4%BD%A0%E5%A5%BDweb/</link>
+        <link>http://localhost:1316/p/%E4%BD%A0%E5%A5%BDweb/</link>
         <pubDate>Thu, 14 Aug 2025 15:59:13 +0800</pubDate>
         
-        <guid>http://localhost:1313/Daierlang-gzj.github.io/p/%E4%BD%A0%E5%A5%BDweb/</guid>
+        <guid>http://localhost:1316/p/%E4%BD%A0%E5%A5%BDweb/</guid>
         <description>&lt;p&gt;+++&lt;/p&gt;
 &lt;p&gt;目前的首要目标是把博客的基础操作理顺：熟练更新文章、做些个性化调整、掌握日常管理方法。&lt;/p&gt;
 &lt;p&gt;长远一点的计划也有不少：想入手一台 ZBook 15 G2 折腾折腾；之后要尝试自己写页面，买个专属域名，租服务器和存储；还想学学爬虫技术，逛逛互联网历史博物馆，再搭个个人本地存储库 —— 说白了就是多装几块硬盘存东西。&lt;/p&gt;
@@ -48,10 +423,10 @@
         </item>
         <item>
         <title>My First Post</title>
-        <link>http://localhost:1313/Daierlang-gzj.github.io/p/my-first-post/</link>
+        <link>http://localhost:1316/p/my-first-post/</link>
         <pubDate>Tue, 12 Aug 2025 23:41:13 +0800</pubDate>
         
-        <guid>http://localhost:1313/Daierlang-gzj.github.io/p/my-first-post/</guid>
+        <guid>http://localhost:1316/p/my-first-post/</guid>
         <description>&lt;p&gt;第二次测试&lt;/p&gt;
 </description>
         </item>

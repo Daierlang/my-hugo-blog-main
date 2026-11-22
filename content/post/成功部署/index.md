@@ -1,6 +1,6 @@
 +++
 date = '2025-08-18T15:28:41+08:00'
-draft = true
+draft = false
 title = '成功部署'
 
 +++

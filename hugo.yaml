@@ -1,4 +1,4 @@
-baseurl: https://Daierlang.github.io/Daierlang-gzj.github.io/
+baseurl: http://myphp1.taiyakey.ddns.net:8080/
 languageCode: en-us
 theme: hugo-theme-stack
 title: Daierlang
@@ -20,8 +20,7 @@ languages:
         weight: 2
         params:
             sidebar:
-                subtitle: "现在不做就不会做"
-
+                subtitle: "所有的事，都是从现在开始的（现在不做就不会做，此时更待何时？）"
     zh-西瓜:
         languageName: 西瓜语
         title: 西瓜瓜
